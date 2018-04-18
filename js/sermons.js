@@ -8,6 +8,7 @@
 2. Set Header
 3. Init Header Search
 4. Init Menu
+5. Init Video
 
 
 ******************************/
@@ -41,6 +42,7 @@ $(document).ready(function()
 
 	initHeaderSearch();
 	initMenu();
+	initVideo();
 
 	/* 
 
@@ -129,6 +131,17 @@ $(document).ready(function()
 	{
 		menu.addClass('active');
 		menuActive = true;
+	}
+
+	/* 
+
+	5. Init Video
+
+	*/
+
+	function initVideo()
+	{
+		$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
 	}
 
 });
