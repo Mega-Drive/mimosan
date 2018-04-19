@@ -36,14 +36,10 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.events_items
+	.mission_item
 	{
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.events_item
-	{
-		width: calc((100% - 60px) / 3);
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
 
@@ -75,19 +71,16 @@
 	{
 		margin-right: 45px;
 	}
-	.event_container
+	.mission
 	{
-		padding-left: 40px;
-		padding-right: 15px;
+		padding-bottom: 34px;
 	}
-	.event_content
+	.mission_item
 	{
-		/*max-width: 350px;*/
-		padding-left: 40px;
-	}
-	.sermon_links ul li:not(:last-child)
-	{
-		margin-right: 10px;
+		width: 50%;
+		padding-left: 70px;
+		padding-right: 70px;
+		margin-bottom: 60px;
 	}
 	.footer_links
 	{
@@ -145,14 +138,6 @@
 	{
 		padding-left: 0px;
 		padding-top: 32px;
-	}
-	.events_item
-	{
-		width: 690px;
-	}
-	.events_item .event_content
-	{
-		text-align: left;
 	}
 	.footer
 	{
@@ -242,14 +227,19 @@
 	{
 		font-size: 36px;
 	}
-	.event_content
+	.mission
 	{
-		padding-left: 0;
-		margin-top: 15px;
+		padding-bottom: 94px;
 	}
-	.events_item
+	.mission_item
 	{
-		width: 510px;
+		width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.mission_item:last-child
+	{
+		margin-bottom: 0;
 	}
 }
 
@@ -317,56 +307,6 @@
 	{
 		padding-left: 15px;
 	}
-	.event_container
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.event_title, .event_title a
-	{
-		font-size: 16px;
-	}
-	.event_row li span
-	{
-		font-size: 11px;
-	}
-	.event_timer li
-	{
-		width: 80px;
-		height: 70px;
-	}
-	.event_num
-	{
-		font-size: 32px;
-	}
-	.event_date > div
-	{
-		width: 50px;
-		height: 50px;
-	}
-	.event_day
-	{
-		font-size: 24px;
-	}
-	.event_month
-	{
-		font-size: 12px;
-		margin-top: 7px;
-	}
-	.page_nav ul li
-	{
-		width: 35px;
-		height: 35px;
-	}
-	.page_nav ul li a
-	{
-		font-size: 14px;
-		line-height: 35px;
-	}
-	.page_nav ul li:not(:last-child)
-	{
-		margin-right: 6px;
-	}
 	.section_title
 	{
 		font-size: 24px;
@@ -374,25 +314,6 @@
 	.section_subtitle
 	{
 		font-size: 14px;
-	}
-	.sermon_links ul li
-	{
-		width: 40px;
-		height: 40px;
-	}
-	.sermon_links ul li a i
-	{
-		font-size: 14px;
-		line-height: 40px;
-	}
-	.events_items
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.events_item
-	{
-		width: 100%;
 	}
 	.quote_quote
 	{
@@ -415,23 +336,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	.event_timer li
-	{
-		width: 55px;
-		height: 65px;
-	}
-	.event_num
-	{
-		font-size: 24px;
-	}
-	.event_ss
-	{
-		font-size: 14px;
-	}
-	.event_title
-	{
-		margin-top: 0;
-	}
+	
 }
 
 /************

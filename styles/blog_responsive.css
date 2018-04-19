@@ -36,15 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.events_items
-	{
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.events_item
-	{
-		width: calc((100% - 60px) / 3);
-	}
+	
 }
 
 /************
@@ -74,20 +66,6 @@
 	.main_nav li:not(:last-child)
 	{
 		margin-right: 45px;
-	}
-	.event_container
-	{
-		padding-left: 40px;
-		padding-right: 15px;
-	}
-	.event_content
-	{
-		/*max-width: 350px;*/
-		padding-left: 40px;
-	}
-	.sermon_links ul li:not(:last-child)
-	{
-		margin-right: 10px;
 	}
 	.footer_links
 	{
@@ -131,28 +109,6 @@
 	.home_title
 	{
 		font-size: 48px;
-	}
-	.event_container
-	{
-		padding-left: 0;
-	}
-	.event_text
-	{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.about_content
-	{
-		padding-left: 0px;
-		padding-top: 32px;
-	}
-	.events_item
-	{
-		width: 690px;
-	}
-	.events_item .event_content
-	{
-		text-align: left;
 	}
 	.footer
 	{
@@ -242,15 +198,6 @@
 	{
 		font-size: 36px;
 	}
-	.event_content
-	{
-		padding-left: 0;
-		margin-top: 15px;
-	}
-	.events_item
-	{
-		width: 510px;
-	}
 }
 
 /************
@@ -313,46 +260,6 @@
 	{
 		font-size: 16px;
 	}
-	.events_item .event_content
-	{
-		padding-left: 15px;
-	}
-	.event_container
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.event_title, .event_title a
-	{
-		font-size: 16px;
-	}
-	.event_row li span
-	{
-		font-size: 11px;
-	}
-	.event_timer li
-	{
-		width: 80px;
-		height: 70px;
-	}
-	.event_num
-	{
-		font-size: 32px;
-	}
-	.event_date > div
-	{
-		width: 50px;
-		height: 50px;
-	}
-	.event_day
-	{
-		font-size: 24px;
-	}
-	.event_month
-	{
-		font-size: 12px;
-		margin-top: 7px;
-	}
 	.page_nav ul li
 	{
 		width: 35px;
@@ -375,29 +282,6 @@
 	{
 		font-size: 14px;
 	}
-	.sermon_links ul li
-	{
-		width: 40px;
-		height: 40px;
-	}
-	.sermon_links ul li a i
-	{
-		font-size: 14px;
-		line-height: 40px;
-	}
-	.events_items
-	{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.events_item
-	{
-		width: 100%;
-	}
-	.quote_quote
-	{
-		font-size: 22px;
-	}
 }
 
 /************
@@ -415,23 +299,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	.event_timer li
-	{
-		width: 55px;
-		height: 65px;
-	}
-	.event_num
-	{
-		font-size: 24px;
-	}
-	.event_ss
-	{
-		font-size: 14px;
-	}
-	.event_title
-	{
-		margin-top: 0;
-	}
+	
 }
 
 /************
